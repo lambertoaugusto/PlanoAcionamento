@@ -1,0 +1,212 @@
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Font;
+import java.awt.FontMetrics;
+import java.awt.Graphics;
+import java.awt.Graphics2D;
+import java.awt.GridBagConstraints;
+import java.awt.GridBagLayout;
+import java.awt.Image;
+import java.awt.Rectangle;
+import java.awt.Shape;
+import java.awt.event.ActionEvent;
+import java.awt.event.ComponentEvent;
+import java.awt.event.ComponentListener;
+import java.awt.event.InputMethodEvent;
+import java.awt.event.InputMethodListener;
+import java.awt.image.ImageObserver;
+import java.awt.print.PageFormat;
+import java.awt.print.Printable;
+import java.awt.print.PrinterException;
+import java.awt.print.PrinterJob;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.text.AttributedCharacterIterator;
+
+import javax.swing.JInternalFrame;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JSeparator;
+import javax.swing.JTextPane;
+import javax.swing.SwingConstants;
+import javax.swing.border.BevelBorder;
+import javax.swing.border.LineBorder;
+import javax.swing.event.AncestorEvent;
+import javax.swing.event.AncestorListener;
+import javax.swing.text.SimpleAttributeSet;
+import javax.swing.text.StyleConstants;
+import javax.swing.text.StyledDocument;
+
+
+//public class TelaImprimir extends JInternalFrame{
+public class TelaImprimir extends JPanel{
+	
+	private JTextPane militar = new JTextPane();
+	private JTextPane filho1 = new JTextPane();
+	private JTextPane filho2 = new JTextPane();
+	private JTextPane filho3 = new JTextPane();
+	private TelaImprimir panel = this;
+	private TelaPrincipal tela;
+	/*private int x1 = 0;
+	private int x2 = 0;
+	private int y1 = 10;
+	private int y2 = 10;
+	
+	public void paintComponent(Graphics g){
+		super.paintComponent( g );
+        this.setBackground( Color.WHITE );
+        
+		g.setColor(Color.BLACK);
+        g.drawLine(x1, x2, y1, y2);
+	}*/
+		
+	/**
+	 * Create the panel.
+	 */
+	public TelaImprimir(TelaPrincipal tp, String mil, String f1, String f2, String f3, boolean todos) {
+		tela = tp;
+		setLayout(null);
+		
+		militar.setText(mil);
+		filho1.setText(f1);
+		filho2.setText(f2);
+		filho3.setText(f3);
+		
+		setBackground(Color.WHITE);		
+		militar.setBorder(new LineBorder(new Color(0, 0, 0)));		
+		filho1.setBorder(new LineBorder(new Color(0, 0, 0)));		
+		filho2.setBorder(new LineBorder(new Color(0, 0, 0)));		
+		filho3.setBorder(new LineBorder(new Color(0, 0, 0)));
+		
+		//try{
+			/*File caminho = new File(end);
+			if(caminho.exists()){
+				FileReader fr = new FileReader(caminho);
+				BufferedReader arq_rd = new BufferedReader(fr);
+				boolean sair = false;
+				while(arq_rd.ready()&&!sair){
+					String linha = arq_rd.readLine();
+					String[] argum = linha.split("<>");
+					if(argum[0].equals(mil)){
+						militar.setText(argum[0]);
+						filho1.setText(argum[4]);
+						filho2.setText(argum[5]);
+						filho3.setText(argum[6]);
+						sair = true;
+					}
+				}
+				*/
+				militar.setSize(militar.getPreferredSize());
+				filho1.setSize(filho1.getPreferredSize());
+				filho2.setSize(filho2.getPreferredSize());
+				filho3.setSize(filho3.getPreferredSize());		
+				
+				int w  = filho1.getWidth();
+				if(w < filho2.getWidth()){
+					w = filho2.getWidth();
+				}
+				if(w < filho3.getWidth()){
+					w = filho3.getWidth();
+				}
+				
+				int h = filho1.getHeight();
+				if(h < filho2.getHeight()){
+					h = filho2.getHeight();
+				}
+				if(h < filho3.getHeight()){
+					h = filho3.getHeight();
+				}
+						
+				this.setSize(w*3+40, h+militar.getHeight()+30);				
+				setLayout(null);		
+				
+				militar.setBounds(this.getWidth()/2-militar.getWidth()/2, 5, militar.getWidth(), militar.getHeight());
+				filho2.setBounds(this.getWidth()/2-w/2, this.getHeight()-h-5, w, h);
+				filho1.setBounds(10, this.getHeight()-h-5, w, h);		
+				filho3.setBounds(this.getWidth()-w-10, this.getHeight()-h-5, w, h);
+				
+				StyledDocument doc = filho1.getStyledDocument();
+				SimpleAttributeSet center = new SimpleAttributeSet();
+				StyleConstants.setAlignment(center, StyleConstants.ALIGN_CENTER);
+				doc.setParagraphAttributes(0, doc.getLength(), center, false);
+				
+				StyledDocument doc2 = filho2.getStyledDocument();
+				doc2.setParagraphAttributes(0, doc2.getLength(), center, false);
+				
+				StyledDocument doc3 = filho3.getStyledDocument();
+				doc3.setParagraphAttributes(0, doc3.getLength(), center, false);
+				
+				this.add(militar);
+				this.add(filho1);
+				this.add(filho3);
+				this.add(filho2);				
+								
+				JSeparator s1 = new JSeparator(SwingConstants.VERTICAL);
+				JSeparator s2 = new JSeparator(SwingConstants.HORIZONTAL);
+				JSeparator sf1 = new JSeparator(SwingConstants.VERTICAL);
+				JSeparator sf2 = new JSeparator(SwingConstants.VERTICAL);
+				JSeparator sf3 = new JSeparator(SwingConstants.VERTICAL);
+				
+				s1.setBounds(militar.getX()+militar.getWidth()/2,militar.getY()+militar.getHeight(),2, 20);
+				s1.setForeground(Color.BLACK);
+				s2.setBounds(s1.getX()-w-10,s1.getY()+s1.getHeight()/2,2*w+20, 2);
+				s2.setForeground(Color.BLACK);
+				sf1.setBounds(filho1.getX()+filho1.getWidth()/2,s2.getY()+s2.getHeight()-2,2, 10);
+				sf1.setForeground(Color.BLACK);
+				sf2.setBounds(filho2.getX()+filho2.getWidth()/2,s2.getY()+s2.getHeight()-2,2, 10);
+				sf2.setForeground(Color.BLACK);
+				sf3.setBounds(filho3.getX()+filho3.getWidth()/2,s2.getY()+s2.getHeight()-2,2, 10);
+				sf3.setForeground(Color.BLACK);
+				
+				this.setBorder(new LineBorder(new Color(0, 0, 0),2));
+				
+				this.add(s1);		
+				this.add(sf1);
+				//this.add(sf2);
+				this.add(sf3);
+				this.add(s2);				
+				
+				if(!todos){					
+					this.printComponent();					
+				}
+	/*		}
+			else{
+				JOptionPane.showMessageDialog(tela, "Erro ao tentar acessar o arquivo do plano de reunião do ano informado");
+			}			
+		}catch(Exception e){
+			JOptionPane.showMessageDialog(tela, "Erro ao tentar acessar os arquivos do banco de dados");
+		}*/		
+	}
+	
+	public void printComponent(){
+		PrinterJob pj = PrinterJob.getPrinterJob();
+		pj.setJobName("Plano individual");
+		
+		pj.setPrintable(new Printable() {			
+			public int print(Graphics pg, PageFormat pf, int pageNum)
+					throws PrinterException {
+				if(pageNum > 0){
+					return Printable.NO_SUCH_PAGE;
+				}
+				Graphics2D g2 = (Graphics2D) pg;
+				g2.translate(pf.getImageableX(), pf.getImageableY());
+				
+				panel.paint(g2);
+				
+				return Printable.PAGE_EXISTS;
+			}
+		});
+		if(pj.printDialog() == false){
+			return;
+		}
+		try{
+			pj.print();
+		}
+		catch(PrinterException e){
+			JOptionPane.showMessageDialog(panel, "Erro: não foi possível imprimir o arquivo.");
+		}
+	}
+	
+}

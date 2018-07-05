@@ -1,0 +1,294 @@
+import java.util.Collection;
+import java.util.Iterator;
+import java.util.Random;
+import java.util.Vector;
+
+
+public class GerarPlano {	
+	public ListaMilitar[] lista;
+	public int prox = 0;
+	
+	public GerarPlano(int total){
+		int tam = 1;
+		int quant = 1;
+		int filhos = 1;
+		Vector vf = new Vector();
+		vf.add(new Integer(1));
+		while(total > quant){
+			filhos = filhos*3;
+			vf.add(new Integer(filhos));
+			quant = quant+filhos;
+			tam++;
+		}
+		vf.add(new Integer(filhos*3));
+		/*Iterator it = vf.iterator();
+		while(it.hasNext()){
+			System.out.println(((Integer)it.next()).intValue());
+		}*/
+		this.lista = new ListaMilitar[tam+1];
+		for(int i = 0; i<tam+1; i++){
+			//System.out.println(i+"<"+tam);
+			int j = ((Integer)vf.elementAt(i)).intValue();
+			this.lista[i] = new ListaMilitar(j);
+		}			
+	}
+	
+	/*public void inserirMilitar(Militar m){		
+		ListaMilitar proxMil = this.lista[prox];
+		if(proxMil.getProximo()<proxMil.getMilitares().length){
+			m.setLinha(prox);
+			m.setColuna(proxMil.getProximo());
+			proxMil.getMilitares()[proxMil.getProximo()] = m;
+			proxMil.setProximo(proxMil.getProximo()+1);			
+		}
+		else{
+			this.prox++;
+			this.inserirMilitar(m);
+		}		
+	}*/
+	
+	public boolean ehFilho(int l, int c, String nomeFilho){
+		boolean retorno = false;
+		String filho1 = "";
+		String filho2 = "";
+		String filho3 = "";
+		if(this.lista[l+1].getMilitares()[c*3] != null){
+			filho1 = this.lista[l+1].getMilitares()[c*3].getNomeDeGuerra();
+		}
+		if(this.lista[l+1].getMilitares()[(c*3)+1] != null){
+			filho2 = this.lista[l+1].getMilitares()[(c*3)+1].getNomeDeGuerra();
+		}
+		if(this.lista[l+1].getMilitares()[(c*3)+2] != null){
+			filho3 = this.lista[l+1].getMilitares()[(c*3)+2].getNomeDeGuerra();
+		}
+		//System.out.print("f1:"+filho1+",f2:"+filho2+",f3:"+filho3+"nome:"+nomeFilho);
+		if(nomeFilho.equals(filho1)){
+			retorno = true;
+		}
+		else if(nomeFilho.equals(filho2)){
+			retorno = true;
+		}
+		else if(nomeFilho.equals(filho3)){
+			retorno = true;
+		}
+		//System.out.println(retorno);
+		return retorno;
+	}
+	
+	/*public boolean tahNaLista(String nomeProc, String nomeComp){
+		boolean retorno = false;
+		String filho1 = "";
+		String filho2 = "";
+		String filho3 = "";
+		ListaMilitar penultima = this.lista[this.lista.length-2];
+		for(int i =0; i< penultima.getMilitares().length && !retorno; i++){
+			if(penultima.getMilitares()[i].getNomeDeGuerra().equals(nomeProc)){
+				if(this.lista[penultima.getMilitares()[i].getLinha()+1].getMilitares()[penultima.getMilitares()[i].getColuna()*3]!=null 
+				&& this.lista[penultima.getMilitares()[i].getLinha()+1].getMilitares()[penultima.getMilitares()[i].getColuna()*3].equals(nomeComp)){
+					retorno = true;
+				}
+				else if(this.lista[penultima.getMilitares()[i].getLinha()+1].getMilitares()[(penultima.getMilitares()[i].getColuna()*3)+1]!=null 
+					 && this.lista[penultima.getMilitares()[i].getLinha()+1].getMilitares()[(penultima.getMilitares()[i].getColuna()*3)+1].equals(nomeComp)){
+					retorno = true;
+				}
+				else if(this.lista[penultima.getMilitares()[i].getLinha()+1].getMilitares()[(penultima.getMilitares()[i].getColuna()*3)+2]!=null 
+					 && this.lista[penultima.getMilitares()[i].getLinha()+1].getMilitares()[(penultima.getMilitares()[i].getColuna()*3)+2].equals(nomeComp)){
+					retorno = true;
+				}
+			}
+		}
+		return retorno;
+	}*/
+	
+	/*public void inserirUltimos(Militar[] mil){
+		//inserindo o pai número 1
+		for(int i = 1; i < lista.length-1; i++){
+			for(int j = 0; j < lista[i].getMilitares().length;j++){
+				lista[i].getMilitares()[j].setPai_1(lista[i-1].getMilitares()[j/3].getNomeDeGuerra());
+			}
+		}
+		inserirUltimos_2(mil);		
+	}
+	
+	public void inserirUltimos_2(Militar[] mil){
+		//inserindo o pai número 2		
+		Vector lista_tmp = new Vector();		
+		for(int i = 0; i < mil.length; i++){
+			lista_tmp.add(mil[i].getNomeDeGuerra());
+		}
+		boolean sair = false;
+		for(int i = 0; i<lista[lista.length-2].getMilitares().length;i++){
+			int l = new Random().nextInt(lista_tmp.size());
+			if()
+			lista[lista.length-2].getMilitares()[i].setPai_2((String)lista_tmp.elementAt(l));
+		}
+	}*/
+	
+	/*public void inserirUltimos(){		
+		ListaMilitar ultima = this.lista[this.lista.length-1];		
+		ListaMilitar penultima = this.lista[this.lista.length-2];
+		int l = new Random().nextInt(this.lista.length-1);
+		int c = new Random().nextInt(this.lista[l].getMilitares().length);
+		//System.out.println("total = "+penultima.getMilitares().length);		
+		for(int i=0; i < penultima.getMilitares().length;i++){
+			//System.out.println(l+"-"+c);
+			for(int j = 0; j<3; j++){
+				if(l !=0){				
+					//System.out.println(lista[l].getMilitares()[c].getNomeDeGuerra()+"=?"+lista[penultima.getMilitares()[i].getLinha()-1].getMilitares()[penultima.getMilitares()[i].getColuna()/3].getNomeDeGuerra());
+					while(lista[l].getMilitares()[c].getNomeDeGuerra().equals(
+							lista[penultima.getMilitares()[i].getLinha()-1].getMilitares()[penultima.getMilitares()[i].getColuna()/3].getNomeDeGuerra())
+							||ehFilho(penultima.getMilitares()[i].getLinha(), penultima.getMilitares()[i].getColuna(),lista[l].getMilitares()[c].getNomeDeGuerra())
+							||tahNaLista(lista[l].getMilitares()[c].getNomeDeGuerra(),penultima.getMilitares()[i].getNomeDeGuerra())
+							||(penultima.getMilitares()[i].getColuna() == c && penultima.getMilitares()[i].getLinha() == l)){
+							l = new Random().nextInt(this.lista.length-1);
+							c = new Random().nextInt(this.lista[l].getMilitares().length);
+					}
+				}
+				else{
+					while(ehFilho(penultima.getMilitares()[i].getLinha(), penultima.getMilitares()[i].getColuna() , lista[l].getMilitares()[c].getNomeDeGuerra())){
+						l = new Random().nextInt(this.lista.length-1);
+						c = new Random().nextInt(this.lista[l].getMilitares().length);
+					}
+				}
+				this.inserirMilitar(new Militar(lista[l].getMilitares()[c].getNomeDeGuerra(),lista[l].getMilitares()[c].getTelefone()));
+				l = new Random().nextInt(this.lista.length-1);
+				c = new Random().nextInt(this.lista[l].getMilitares().length);
+			}
+		}
+	}*/
+	
+	public void InserirPais(Militar[] mil){		
+		for(int i = 1; i < lista.length-1; i++){
+			for(int j = 0; j < lista[i].getMilitares().length;j++){
+				lista[i].getMilitares()[j].setPai_1(lista[i-1].getMilitares()[j/3].getNomeDeGuerra());
+			}
+		}
+		this.InserirPais_2(mil);
+	}
+	
+	public void InserirPais_2(Militar[] mil){
+		Vector lista_tmp = new Vector();
+		boolean sair = false;
+		for(int i = 0; i < mil.length; i++){
+			lista_tmp.add(mil[i].getNomeDeGuerra());
+		}
+		for(int i = 1; i < lista.length-1 && !sair; i++){
+			for(int j = 0; j < lista[i].getMilitares().length && !sair;j++){
+				int l = new Random().nextInt(lista_tmp.size());				
+				//System.out.println(i+":"+j);
+				if(!lista_tmp.elementAt(l).equals(lista[i].getMilitares()[j].getPai_1())
+				 &&!lista_tmp.elementAt(l).equals(lista[i].getMilitares()[j].getNomeDeGuerra())){
+					lista[i].getMilitares()[j].setPai_2((String)lista_tmp.elementAt(l));
+					lista_tmp.remove(l);
+				}
+				else{
+					if(lista_tmp.size()<=3){
+						this.InserirPais_2(mil);
+						sair = true;
+					}
+					else{
+						j--;
+					}
+				}
+			}
+		}
+		//this.InserirPais_3(mil);
+	}
+	
+	public void InserirPais_3(Militar[] mil){
+		Vector lista_tmp = new Vector();
+		boolean sair = false;
+		for(int i = 0; i < mil.length; i++){
+			lista_tmp.add(mil[i].getNomeDeGuerra());
+		}
+		for(int i = 1; i < lista.length-1 && !sair; i++){
+			for(int j = 0; j < lista[i].getMilitares().length && !sair;j++){
+				int l = new Random().nextInt(lista_tmp.size());				
+				if(!lista_tmp.elementAt(l).equals(lista[i].getMilitares()[j].getPai_1())
+				 &&!lista_tmp.elementAt(l).equals(lista[i].getMilitares()[j].getPai_2())
+				 &&!lista_tmp.elementAt(l).equals(lista[i+1].getMilitares()[j*3].getNomeDeGuerra())
+				 &&!lista_tmp.elementAt(l).equals(lista[i+1].getMilitares()[(j*3)+1].getNomeDeGuerra())
+				 &&!lista_tmp.elementAt(l).equals(lista[i+1].getMilitares()[(j*3)+2].getNomeDeGuerra())){
+					lista[i].getMilitares()[j].setPai_3((String)lista_tmp.elementAt(l));
+					lista_tmp.remove(l);
+				}
+				else{
+					if(lista_tmp.size()<=4){
+						this.InserirPais_2(mil);
+						sair = true;
+					}
+					else{
+						j--;
+					}
+				}
+			}
+		}		
+	}
+	/*public No procurarMilitar(String nome, No p){
+		No prox = p;
+		No retorno = null;		
+		if(prox != null){
+			if(prox.getMilitar().getNomeDeGuerra().equals(nome)){
+				retorno = prox;				
+			}
+			else{
+				for(int i =0; i<3 && retorno == null; i++){					
+					System.out.println("valor: "+i);						
+					if(prox != null){
+						prox = prox.getFilhos()[i];					
+						retorno = procurarMilitar(nome, prox);
+					}
+				}
+			}
+		}		
+		return retorno;
+	}*/
+	
+	/*public static void main(String[] args){		
+		GerarPlano plano = new GerarPlano(13);		
+		Militar[] militares = {new Militar("Cap. Pedro","(81)91111-1111"),new Militar("Ten. Ednei","(81)91111-1111"),
+							   new Militar("Ten. Edson","(81)91111-1111"),new Militar("Ten. Klesons","(81)91111-1111"),
+							   new Militar("2S Lamberto","(81)91111-1111"),new Militar("2S Paula","(81)91111-1111"),
+							   new Militar("3S Wanessa","(81)91111-1111"),new Militar("1S Williams","(81)91111-1111"),
+							   new Militar("3S Graziele","(81)91111-1111"),new Militar("3S Rafael","(81)91111-1111"),
+							   new Militar("3S Ranyer","(81)91111-1111"),new Militar("3S Ammanda Mayara","(81)91111-1111"),
+							   new Militar("3S Cleiton","(81)91111-1111")};	
+		
+		plano.inserirMilitar(militares[0]);
+		plano.inserirMilitar(militares[1]);
+		plano.inserirMilitar(militares[2]);
+		plano.inserirMilitar(militares[3]);
+		
+		Vector pos = new Vector();
+		for(int i = 4; i < 13; i++){
+			pos.addElement(militares[i]);
+		}
+				
+		Random r = new Random();		
+		while(pos.size()>0){			
+			//System.out.println(pos.size());
+			int j = r.nextInt(pos.size());
+			plano.inserirMilitar((Militar)pos.elementAt(j));
+			pos.remove(j);			
+		}				
+		
+		plano.inserirUltimos();
+		
+		for(int i = 0; i<plano.lista.length-1;i++){
+			ListaMilitar listaAtual = plano.lista[i];
+			for(int j = 0; j<listaAtual.getMilitares().length; j++){
+				System.out.print(listaAtual.getMilitares()[j].getNomeDeGuerra()+" aciona: ");
+				if(plano.lista[listaAtual.getMilitares()[j].getLinha()+1].getMilitares()[listaAtual.getMilitares()[j].getColuna()*3] != null){
+					System.out.print(plano.lista[listaAtual.getMilitares()[j].getLinha()+1].getMilitares()[listaAtual.getMilitares()[j].getColuna()*3].getNomeDeGuerra());
+				}				
+				if(plano.lista[listaAtual.getMilitares()[j].getLinha()+1].getMilitares()[(listaAtual.getMilitares()[j].getColuna()*3)+1] != null){
+					System.out.print(","+plano.lista[listaAtual.getMilitares()[j].getLinha()+1].getMilitares()[(listaAtual.getMilitares()[j].getColuna()*3)+1].getNomeDeGuerra());
+				}
+				if(plano.lista[listaAtual.getMilitares()[j].getLinha()+1].getMilitares()[(listaAtual.getMilitares()[j].getColuna()*3)+2] != null){
+					System.out.print(","+plano.lista[listaAtual.getMilitares()[j].getLinha()+1].getMilitares()[(listaAtual.getMilitares()[j].getColuna()*3)+2].getNomeDeGuerra());
+				}
+				System.out.println();
+			}
+		}			
+	}*/
+}

@@ -1,0 +1,216 @@
+import java.util.Collection;
+import java.util.Collections;
+import java.util.Random;
+import java.util.Vector;
+
+
+public class PlanoDeAcionamento {
+	private Militar[] militares;
+	
+	public PlanoDeAcionamento(Militar[] mil){
+		this.militares = mil;
+	}
+
+	public Militar[] getMilitares() {
+		return militares;
+	}
+
+	public void setMilitares(Militar[] militares) {
+		this.militares = militares;
+	}
+	
+	public void gerarPlano(){		
+		//inserindo os primeiros filhos e primeiros pais
+		for(int j = 0; j < militares.length; j++){
+			militares[j].setFilho_1(militares[(j+1)%(militares.length)].getNomeDeGuerra());
+			militares[(j+1)%(militares.length)].setPai_1(militares[j].getNomeDeGuerra());
+		}
+		//inserindo os segundos filhos e segundos pais
+		for(int j = 0; j < militares.length; j++){
+			militares[j].setFilho_2(militares[(j+2)%(militares.length)].getNomeDeGuerra());
+			militares[(j+2)%(militares.length)].setPai_2(militares[j].getNomeDeGuerra());
+		}
+		//inserindo os segundos filhos e segundos pais
+		for(int j = 0; j < militares.length; j++){
+			militares[j].setFilho_3(militares[(j+3)%(militares.length)].getNomeDeGuerra());
+			militares[(j+3)%(militares.length)].setPai_3(militares[j].getNomeDeGuerra());
+		}
+	}
+	
+	/*public boolean GerarPlano(){		
+		Vector lista = new Vector();		
+		for(int i = 4; i < militares.length; i++){
+			lista.add(militares[i]);
+			lista.add(militares[i]);
+			lista.add(militares[i]);			
+		}		
+		for(int i = 1; i < 4; i++){
+			lista_filho.add(militares[i]);
+			lista_filho.add(militares[i]);
+			lista_pai.add(militares[i]);
+			lista_pai.add(militares[i]);
+			lista_pai.add(militares[i]);
+		}
+		//insere os 3 chefes auxiliares que serão acionados pelo chefe
+		militares[0].setFilho_1(militares[1].getNomeDeGuerra());		
+		militares[0].setFilho_1(militares[2].getNomeDeGuerra());
+		militares[0].setFilho_1(militares[3].getNomeDeGuerra());
+		//inserindo o chefe acionando os 3 auxiliares
+		militares[1].setPai_1(militares[0].getNomeDeGuerra());
+		militares[2].setPai_1(militares[0].getNomeDeGuerra());
+		militares[3].setPai_1(militares[0].getNomeDeGuerra());
+		
+		for(int i = 0; i < militares.length; i++){
+			//insere o primeiro pai
+			int ind = new Random().nextInt(lista_pai.size());
+			int qntd_tentou = 1;
+			while(lista_pai.elementAt(ind).equals(militares[i].getNomeDeGuerra())){
+				if(qntd_tentou<lista_pai.size()){
+					ind = new Random().nextInt(lista_pai.size());
+					qntd_tentou++;
+				}
+				else{
+					return false;
+				}
+			}
+			System.out.println(militares[i].getNomeDeGuerra()+" acionado por: "+(String)lista_pai.elementAt(ind));
+			militares[i].setPai_1((String)lista_pai.elementAt(ind));
+			lista_pai.remove(ind);
+			
+			//insere o segundo pai
+			ind = new Random().nextInt(lista_pai.size());
+			qntd_tentou = 1;
+			while(lista_pai.elementAt(ind).equals(militares[i].getNomeDeGuerra())
+				||lista_pai.elementAt(ind).equals(militares[i].getPai_1())){
+				if(qntd_tentou<lista_pai.size()){
+					ind = new Random().nextInt(lista_pai.size());
+					qntd_tentou++;
+				}
+				else{
+					return false;
+				}
+			}
+			System.out.println(militares[i].getNomeDeGuerra()+" acionado por: "+(String)lista_pai.elementAt(ind));
+			militares[i].setPai_2((String)lista_pai.elementAt(ind));
+			lista_pai.remove(ind);
+			
+			//insere o terceiro pai
+			ind = new Random().nextInt(lista_pai.size());
+			qntd_tentou = 1;
+			while(lista_pai.elementAt(ind).equals(militares[i].getNomeDeGuerra())
+				||lista_pai.elementAt(ind).equals(militares[i].getPai_1())
+				||lista_pai.elementAt(ind).equals(militares[i].getPai_2())){
+				if(qntd_tentou<lista_pai.size()){
+					ind = new Random().nextInt(lista_pai.size());
+					qntd_tentou++;
+				}
+				else{
+					return false;
+				}
+			}
+			System.out.println(militares[i].getNomeDeGuerra()+" acionado por: "+(String)lista_pai.elementAt(ind));
+			militares[i].setPai_3((String)lista_pai.elementAt(ind));
+			lista_pai.remove(ind);
+			
+			//insere o primeiro filho			
+			ind = new Random().nextInt(lista_filho.size());
+			qntd_tentou = 1;
+			while(lista_filho.elementAt(ind).equals(militares[i].getNomeDeGuerra())
+				||lista_filho.elementAt(ind).equals(militares[i].getPai_1())
+				||lista_filho.elementAt(ind).equals(militares[i].getPai_2())
+				||lista_filho.elementAt(ind).equals(militares[i].getPai_3())){
+				if(qntd_tentou<lista_filho.size()){
+					ind = new Random().nextInt(lista_filho.size());
+					qntd_tentou++;
+				}
+				else{
+					return false;
+				}
+			}
+			System.out.println(militares[i].getNomeDeGuerra()+" aciona: "+(String)lista_filho.elementAt(ind));
+			militares[i].setFilho_1((String)lista_filho.elementAt(ind));
+			lista_filho.remove(ind);
+			
+			//insere o segundo filho			
+			ind = new Random().nextInt(lista_filho.size());
+			qntd_tentou = 1;
+			while(lista_filho.elementAt(ind).equals(militares[i].getNomeDeGuerra())
+				||lista_filho.elementAt(ind).equals(militares[i].getPai_1())
+				||lista_filho.elementAt(ind).equals(militares[i].getPai_2())
+				||lista_filho.elementAt(ind).equals(militares[i].getPai_3())
+				||lista_filho.elementAt(ind).equals(militares[i].getFilho_1())){
+				if(qntd_tentou<lista_filho.size()){
+					ind = new Random().nextInt(lista_filho.size());
+					qntd_tentou++;
+				}
+				else{
+					return false;
+				}
+			}
+			System.out.println(militares[i].getNomeDeGuerra()+" aciona: "+(String)lista_filho.elementAt(ind));
+			militares[i].setFilho_2((String)lista_filho.elementAt(ind));
+			lista_filho.remove(ind);
+			
+			//insere o terceiro filho			
+			ind = new Random().nextInt(lista_filho.size());
+			qntd_tentou = 1;
+			while(lista_filho.elementAt(ind).equals(militares[i].getNomeDeGuerra())
+				||lista_filho.elementAt(ind).equals(militares[i].getPai_1())
+				||lista_filho.elementAt(ind).equals(militares[i].getPai_2())
+				||lista_filho.elementAt(ind).equals(militares[i].getPai_3())
+				||lista_filho.elementAt(ind).equals(militares[i].getFilho_1())
+				||lista_filho.elementAt(ind).equals(militares[i].getFilho_2())){
+				if(qntd_tentou<lista_filho.size()){
+					ind = new Random().nextInt(lista_filho.size());
+					qntd_tentou++;
+				}
+				else{
+					return false;
+				}
+			}
+			System.out.println(militares[i].getNomeDeGuerra()+" aciona: "+(String)lista_filho.elementAt(ind));
+			militares[i].setFilho_3((String)lista_filho.elementAt(ind));
+			lista_filho.remove(ind);
+		}
+		return true;
+	}*/
+	
+	/*public static void main(String[] args){
+		Militar[] militares = {new Militar("Cap. Pedro","(81)91111-1111"),new Militar("Ten. Ednei","(81)91111-1111"),
+				   new Militar("Ten. Edson","(81)91111-1111"),new Militar("Ten. Klesons","(81)91111-1111"),
+				   new Militar("2S Lamberto","(81)91111-1111"),new Militar("2S Paula","(81)91111-1111"),
+				   new Militar("3S Wanessa","(81)91111-1111"),new Militar("1S Williams","(81)91111-1111"),
+				   new Militar("3S Graziele","(81)91111-1111"),new Militar("3S Rafael","(81)91111-1111"),
+				   new Militar("3S Ranyer","(81)91111-1111"),new Militar("3S Ammanda Mayara","(81)91111-1111"),
+				   new Militar("3S Cleiton","(81)91111-1111")};	
+							
+		Militar[] mil_random = new Militar[13];
+		mil_random[0] = militares[0];
+		mil_random[1] = militares[1];
+		mil_random[2] = militares[2];
+		mil_random[3] = militares[3];
+		
+		Vector pos = new Vector();
+		for(int i = 4; i < 13; i++){
+			pos.addElement(militares[i]);
+		}
+				
+		Random r = new Random();
+		int i = 4;
+		while(pos.size()>0){			
+			int j = r.nextInt(pos.size());
+			mil_random[i] = ((Militar)pos.elementAt(j));
+			pos.remove(j);
+			i++;
+		}
+		
+		
+		PlanoDeAcionamento plano = new PlanoDeAcionamento(mil_random);
+		plano.gerarPlano();
+		
+		for(int j =0; j<plano.militares.length; j++){
+			System.out.println(plano.militares[j].getNomeDeGuerra()+" aciona: "+plano.militares[j].getFilho_1()+", "+plano.militares[j].getFilho_2()+", "+plano.militares[j].getFilho_3());			
+			System.out.println(plano.militares[j].getNomeDeGuerra()+" é acionado por: "+plano.militares[j].getPai_1()+", "+plano.militares[j].getPai_2()+", "+plano.militares[j].getPai_3());
+		}
+	}*/
+}

@@ -1,0 +1,311 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1439921067868
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1439921068336
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1439921072653
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1439921080877
+activated,editor,org.eclipse.wb.core.ui,,"org.eclipse.wb.core.guiEditor",1439921103890
+activated,editor,org.eclipse.wb.core.ui,,"org.eclipse.wb.core.guiEditor",1439921110129
+activated,editor,org.eclipse.wb.core.ui,,"org.eclipse.wb.core.guiEditor",1439921113973
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1439921157720
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1439921159734
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1439921162675
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.saveAll",1439921182227
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1439921193411
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.saveAll",1439921205656
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1439921209227
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1439921212619
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1439921214760
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1439921222565
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1439921233752
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1439922505686
+executed,command,org.eclipse.ui.workbench.texteditor,3.7.0.v20110928-1504,"org.eclipse.ui.edit.text.select.lineEnd",1439922532754
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1439922534089
+executed,command,org.eclipse.ui.workbench.texteditor,3.7.0.v20110928-1504,"org.eclipse.ui.edit.text.goto.lineEnd",1439922535728
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1439922536135
+activated,editor,org.eclipse.wb.core.ui,,"org.eclipse.wb.core.guiEditor",1439922538492
+executed,command,org.eclipse.ui.workbench.texteditor,3.7.0.v20110928-1504,"org.eclipse.ui.edit.text.select.lineStart",1439922556663
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1439922557257
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1439922579549
+executed,command,org.eclipse.ui.workbench.texteditor,3.7.0.v20110928-1504,"org.eclipse.ui.edit.text.toggleOverwrite",1439922587484
+executed,command,org.eclipse.ui.workbench.texteditor,3.7.0.v20110928-1504,"org.eclipse.ui.edit.text.toggleOverwrite",1439922587603
+executed,command,org.eclipse.ui.workbench.texteditor,3.7.0.v20110928-1504,"org.eclipse.ui.edit.text.toggleOverwrite",1439922587819
+executed,command,org.eclipse.ui.workbench.texteditor,3.7.0.v20110928-1504,"org.eclipse.ui.edit.text.toggleOverwrite",1439922588742
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1439922589134
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1439922589283
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1439922589469
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1439922589658
+executed,command,org.eclipse.ui.workbench.texteditor,3.7.0.v20110928-1504,"org.eclipse.ui.edit.text.goto.lineEnd",1439922591527
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.saveAll",1439922594812
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1439922598670
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1439922603658
+executed,command,org.eclipse.ui.workbench.texteditor,3.7.0.v20110928-1504,"org.eclipse.ui.edit.text.select.lineEnd",1439922606440
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1439922607177
+executed,command,org.eclipse.ui.workbench.texteditor,3.7.0.v20110928-1504,"org.eclipse.ui.edit.text.goto.lineEnd",1439922608612
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1439922608811
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.saveAll",1439922612075
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1439922617184
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1439922617827
+error,log,,,"Could not retrieve interfaces",1439922634865
+error,log,,,"Could not retrieve interfaces",1439922634868
+error,log,,,"Could not retrieve interfaces",1439922634870
+error,log,,,"Could not retrieve interfaces",1439922634873
+error,log,,,"Could not retrieve declared methods",1439922634876
+error,log,,,"Could not retrieve declared methods",1439922634878
+error,log,,,"Could not retrieve declared methods",1439922634880
+error,log,,,"Could not retrieve declared methods",1439922634883
+error,log,,,"Could not retrieve interfaces",1439922634887
+error,log,,,"Could not retrieve interfaces",1439922634889
+error,log,,,"Could not retrieve declared methods",1439922634892
+error,log,,,"Could not retrieve declared methods",1439922634894
+error,log,,,"Could not retrieve interfaces",1439922634897
+error,log,,,"Could not retrieve interfaces",1439922634900
+error,log,,,"Could not retrieve interfaces",1439922634902
+error,log,,,"Could not retrieve interfaces",1439922634904
+error,log,,,"Could not retrieve interfaces",1439922634906
+error,log,,,"Could not retrieve interfaces",1439922634908
+error,log,,,"Could not retrieve declared methods",1439922634910
+error,log,,,"Could not retrieve declared methods",1439922634912
+error,log,,,"Could not retrieve interfaces",1439922634913
+error,log,,,"Could not retrieve declared methods",1439922634915
+error,log,,,"Could not retrieve interfaces",1439922634917
+error,log,,,"Could not retrieve interfaces",1439922634918
+error,log,,,"Could not retrieve interfaces",1439922634920
+error,log,,,"Could not retrieve interfaces",1439922634922
+error,log,,,"Could not retrieve declared methods",1439922634925
+error,log,,,"Could not retrieve interfaces",1439922634930
+error,log,,,"Could not retrieve interfaces",1439922634933
+error,log,,,"Could not retrieve declared methods",1439922634943
+error,log,,,"Could not retrieve declared methods",1439922634951
+error,log,,,"Could not retrieve declared methods",1439922634953
+error,log,,,"Could not retrieve interfaces",1439922634961
+error,log,,,"Could not retrieve interfaces",1439922634964
+error,log,,,"Could not retrieve declared methods",1439922634969
+executed,command,org.eclipse.ui.workbench.texteditor,3.7.0.v20110928-1504,"org.eclipse.ui.edit.text.goto.lineEnd",1439922685659
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1439922688651
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1439922689348
+error,log,,,"Could not retrieve interfaces",1439922697906
+error,log,,,"Could not retrieve interfaces",1439922697909
+error,log,,,"Could not retrieve interfaces",1439922697911
+error,log,,,"Could not retrieve interfaces",1439922697914
+error,log,,,"Could not retrieve declared methods",1439922697916
+error,log,,,"Could not retrieve declared methods",1439922697918
+error,log,,,"Could not retrieve declared methods",1439922697919
+error,log,,,"Could not retrieve declared methods",1439922697922
+error,log,,,"Could not retrieve interfaces",1439922697925
+error,log,,,"Could not retrieve interfaces",1439922697926
+error,log,,,"Could not retrieve declared methods",1439922697928
+error,log,,,"Could not retrieve declared methods",1439922697929
+error,log,,,"Could not retrieve interfaces",1439922697932
+error,log,,,"Could not retrieve interfaces",1439922697935
+error,log,,,"Could not retrieve interfaces",1439922697936
+error,log,,,"Could not retrieve interfaces",1439922697938
+error,log,,,"Could not retrieve interfaces",1439922697949
+error,log,,,"Could not retrieve interfaces",1439922697951
+error,log,,,"Could not retrieve declared methods",1439922697954
+error,log,,,"Could not retrieve declared methods",1439922697956
+error,log,,,"Could not retrieve interfaces",1439922697958
+error,log,,,"Could not retrieve declared methods",1439922697960
+error,log,,,"Could not retrieve interfaces",1439922697962
+error,log,,,"Could not retrieve interfaces",1439922697964
+error,log,,,"Could not retrieve interfaces",1439922697966
+error,log,,,"Could not retrieve interfaces",1439922698426
+error,log,,,"Could not retrieve declared methods",1439922698430
+error,log,,,"Could not retrieve interfaces",1439922698436
+error,log,,,"Could not retrieve interfaces",1439922698439
+error,log,,,"Could not retrieve declared methods",1439922698446
+error,log,,,"Could not retrieve declared methods",1439922698451
+error,log,,,"Could not retrieve declared methods",1439922698453
+error,log,,,"Could not retrieve interfaces",1439922698460
+error,log,,,"Could not retrieve interfaces",1439922698463
+error,log,,,"Could not retrieve declared methods",1439922698468
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1439922753190
+executed,command,org.eclipse.ui.workbench.texteditor,3.7.0.v20110928-1504,"org.eclipse.ui.edit.text.select.lineEnd",1439922758307
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1439922758955
+executed,command,org.eclipse.ui.workbench.texteditor,3.7.0.v20110928-1504,"org.eclipse.ui.edit.text.select.lineEnd",1439922760763
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1439922761372
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1439922764387
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1439922764612
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1439922764811
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1439922765155
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1439922765653
+executed,command,org.eclipse.ui.workbench.texteditor,3.7.0.v20110928-1504,"org.eclipse.ui.edit.text.goto.wordNext",1439922789773
+executed,command,org.eclipse.ui.workbench.texteditor,3.7.0.v20110928-1504,"org.eclipse.ui.edit.text.goto.wordNext",1439922789922
+executed,command,org.eclipse.ui.workbench.texteditor,3.7.0.v20110928-1504,"org.eclipse.ui.edit.text.goto.wordNext",1439922790044
+executed,command,org.eclipse.ui.workbench.texteditor,3.7.0.v20110928-1504,"org.eclipse.ui.edit.text.goto.lineStart",1439922848622
+executed,command,org.eclipse.ui.workbench.texteditor,3.7.0.v20110928-1504,"org.eclipse.ui.edit.text.select.lineEnd",1439922849110
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1439922850142
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1439922851486
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1439922860603
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1439922861366
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1439922885294
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1439922888166
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1439922888613
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1439922895189
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1439922899891
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1439922904317
+executed,command,org.eclipse.ui.workbench.texteditor,3.7.0.v20110928-1504,"org.eclipse.ui.edit.text.goto.lineStart",1439922917432
+executed,command,org.eclipse.ui.workbench.texteditor,3.7.0.v20110928-1504,"org.eclipse.ui.edit.text.select.lineEnd",1439922917865
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1439922918528
+executed,command,org.eclipse.ui.workbench.texteditor,3.7.0.v20110928-1504,"org.eclipse.ui.edit.text.goto.lineStart",1439922921200
+executed,command,org.eclipse.ui.workbench.texteditor,3.7.0.v20110928-1504,"org.eclipse.ui.edit.text.select.lineEnd",1439922921597
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1439922922340
+executed,command,org.eclipse.ui.workbench.texteditor,3.7.0.v20110928-1504,"org.eclipse.ui.edit.text.goto.lineStart",1439922923208
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1439922938433
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1439922939103
+error,log,,,"Could not retrieve interfaces",1439922946654
+error,log,,,"Could not retrieve interfaces",1439922946656
+error,log,,,"Could not retrieve interfaces",1439922946658
+error,log,,,"Could not retrieve interfaces",1439922946660
+error,log,,,"Could not retrieve declared methods",1439922946662
+error,log,,,"Could not retrieve declared methods",1439922946663
+error,log,,,"Could not retrieve declared methods",1439922946664
+error,log,,,"Could not retrieve declared methods",1439922946666
+error,log,,,"Could not retrieve interfaces",1439922946669
+error,log,,,"Could not retrieve interfaces",1439922946670
+error,log,,,"Could not retrieve declared methods",1439922946671
+error,log,,,"Could not retrieve declared methods",1439922946673
+error,log,,,"Could not retrieve interfaces",1439922946675
+error,log,,,"Could not retrieve interfaces",1439922946679
+error,log,,,"Could not retrieve interfaces",1439922946680
+error,log,,,"Could not retrieve interfaces",1439922946681
+error,log,,,"Could not retrieve interfaces",1439922946682
+error,log,,,"Could not retrieve interfaces",1439922946684
+error,log,,,"Could not retrieve declared methods",1439922946685
+error,log,,,"Could not retrieve declared methods",1439922946687
+error,log,,,"Could not retrieve interfaces",1439922946688
+error,log,,,"Could not retrieve declared methods",1439922946690
+error,log,,,"Could not retrieve interfaces",1439922946691
+error,log,,,"Could not retrieve interfaces",1439922946693
+error,log,,,"Could not retrieve interfaces",1439922946695
+error,log,,,"Could not retrieve interfaces",1439922946696
+error,log,,,"Could not retrieve declared methods",1439922946699
+error,log,,,"Could not retrieve interfaces",1439922946703
+error,log,,,"Could not retrieve interfaces",1439922946706
+error,log,,,"Could not retrieve declared methods",1439922946716
+error,log,,,"Could not retrieve declared methods",1439922946722
+error,log,,,"Could not retrieve declared methods",1439922946723
+error,log,,,"Could not retrieve interfaces",1439922946730
+error,log,,,"Could not retrieve interfaces",1439922946732
+error,log,,,"Could not retrieve declared methods",1439922946737
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1439922967060
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1439922967223
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1439922967370
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1439922968889
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1439922971396
+executed,command,org.eclipse.ui.workbench.texteditor,3.7.0.v20110928-1504,"org.eclipse.ui.edit.text.goto.lineStart",1439922983184
+executed,command,org.eclipse.ui.workbench.texteditor,3.7.0.v20110928-1504,"org.eclipse.ui.edit.text.select.lineEnd",1439922983672
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1439922984347
+executed,command,org.eclipse.ui.workbench.texteditor,3.7.0.v20110928-1504,"org.eclipse.ui.edit.text.select.lineEnd",1439922986552
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1439922987167
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.saveAll",1439922992865
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1439922994731
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1439922995324
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1439923004189
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1439923004799
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1439923018083
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1439923018568
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1439923018814
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1439923021777
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1439923021949
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1439923131145
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1439923131326
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1439923131482
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1439923131658
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1439923142104
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1439923142260
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1439923142427
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1439923142712
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1439923146026
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1439923146185
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1439923146360
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1439923147641
+executed,command,org.eclipse.ui.workbench.texteditor,3.7.0.v20110928-1504,"org.eclipse.ui.edit.text.goto.lineEnd",1439923150348
+executed,command,org.eclipse.ui.workbench.texteditor,3.7.0.v20110928-1504,"org.eclipse.ui.edit.text.goto.lineEnd",1439923182623
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.saveAll",1439923211817
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1439923213693
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1439923226168
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.saveAll",1439923237086
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1439923238649
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1439923242325
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.saveAll",1439923245071
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1439923246480
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1439923253899
+activated,editor,org.eclipse.wb.core.ui,,"org.eclipse.wb.core.guiEditor",1439923262370
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1439923274534
+activated,editor,org.eclipse.wb.core.ui,,"org.eclipse.wb.core.guiEditor",1439923276144
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1439923282545
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1439923297038
+executed,command,org.eclipse.ui.workbench.texteditor,3.7.0.v20110928-1504,"org.eclipse.ui.edit.text.goto.lineEnd",1439923303712
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.saveAll",1439923335823
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1439923338603
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1439923340592
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1439923347397
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1439923350816
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1439923351033
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1439923353626
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1439923355618
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1439924107442
+activated,editor,org.eclipse.wb.core.ui,,"org.eclipse.wb.core.guiEditor",1439924116582
+activated,editor,org.eclipse.wb.core.ui,,"org.eclipse.wb.core.guiEditor",1439924125775
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1439924147527
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1439924151508
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1439924158450
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1439924176022
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1439924176084
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1439924177969
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1439924179294
+activated,editor,org.eclipse.wb.core.ui,,"org.eclipse.wb.core.guiEditor",1439924181293
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1439924376675
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1439926133273
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1439926789983
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1439926791819
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1439931923301
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1439931923694
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1439931924823
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1439931926991
+closed,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1439931927904
+stopped,bundle,org.eclipse.m2e.logback.configuration,1.0.200.20111228-1245,"org.eclipse.m2e.logback.configuration",1439931930474
+stopped,bundle,org.eclipse.m2e.discovery,1.0.200.20111228-1245,"org.eclipse.m2e.discovery",1439931930480
+stopped,bundle,org.eclipse.m2e.refactoring,1.0.200.20111228-1245,"org.eclipse.m2e.refactoring",1439931930498
+stopped,bundle,org.eclipse.m2e.editor,1.0.200.20111228-1245,"org.eclipse.m2e.editor",1439931930577
+stopped,bundle,org.eclipse.m2e.editor.xml,1.0.200.20111228-1245,"org.eclipse.m2e.editor.xml",1439931930581
+stopped,bundle,org.eclipse.m2e.jdt,1.0.200.20111228-1245,"org.eclipse.m2e.jdt",1439931930585
+stopped,bundle,org.eclipse.m2e.launching,1.0.200.20111228-1245,"org.eclipse.m2e.launching",1439931930585
+stopped,bundle,org.eclipse.m2e.usagedata,1.0.200.20111228-1245,"org.eclipse.m2e.usagedata",1439931930586
+stopped,bundle,org.eclipse.ui.cheatsheets,3.4.100.v20110425,"org.eclipse.ui.cheatsheets",1439931930590
+stopped,bundle,org.eclipse.help.ui,3.5.101.r37_20110819,"org.eclipse.help.ui",1439931930594
+stopped,bundle,org.eclipse.help.webapp,3.6.1.r37_20110929,"org.eclipse.help.webapp",1439931930629
+stopped,bundle,org.eclipse.epp.mpc.ui,1.1.1.I20110907-0947,"org.eclipse.epp.mpc.ui",1439931930629
+stopped,bundle,org.eclipse.epp.usagedata.ui,1.3.1.R201106061540,"org.eclipse.epp.usagedata.ui",1439931930701
+stopped,bundle,org.eclipse.ui.intro.universal,3.2.500.v20110510,"org.eclipse.ui.intro.universal",1439931930811
+stopped,bundle,org.eclipse.ui.intro,3.4.100.v20110425,"org.eclipse.ui.intro",1439931930818
+stopped,bundle,org.eclipse.help.base,3.6.2.v201202080800,"org.eclipse.help.base",1439931930823
+stopped,bundle,org.eclipse.equinox.http.jetty,2.0.100.v20110502,"org.eclipse.equinox.http.jetty",1439931930827
+stopped,bundle,org.eclipse.m2e.core.ui,1.0.200.20111228-1245,"org.eclipse.m2e.core.ui",1439931930854
+stopped,bundle,org.eclipse.m2e.core,1.0.200.20111228-1245,"org.eclipse.m2e.core",1439931930859
+stopped,bundle,org.eclipse.mylyn.ide.ant,3.6.0.v20110608-1400,"org.eclipse.mylyn.ide.ant",1439931931032
+activated,perspective,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.JavaPerspective",1439945170881
+started,bundle,org.eclipse.osgi,3.7.2.v20120110-1415,"org.eclipse.osgi",1439945170882
+started,bundle,org.eclipse.equinox.simpleconfigurator,1.0.200.v20110815-1438,"org.eclipse.equinox.simpleconfigurator",1439945170884
+started,bundle,com.ibm.icu,4.4.2.v20110823,"com.ibm.icu",1439945170894
+started,bundle,org.eclipse.compare.core,3.5.200.I20110208-0800,"org.eclipse.compare.core",1439945170895
+started,bundle,org.eclipse.core.contenttype,3.4.100.v20110423-0524,"org.eclipse.core.contenttype",1439945170917
+started,bundle,org.eclipse.core.databinding.observable,1.4.0.I20110222-0800,"org.eclipse.core.databinding.observable",1439945170922
+started,bundle,org.eclipse.core.expressions,3.4.300.v20110228,"org.eclipse.core.expressions",1439945170923
+started,bundle,org.eclipse.core.filebuffers,3.5.200.v20110928-1504,"org.eclipse.core.filebuffers",1439945170924
+started,bundle,org.eclipse.core.filesystem,1.3.100.v20110423-0524,"org.eclipse.core.filesystem",1439945170926
+started,bundle,org.eclipse.core.jobs,3.5.101.v20120113-1953,"org.eclipse.core.jobs",1439945170926
+started,bundle,org.eclipse.core.net,1.2.100.I20110511-0800,"org.eclipse.core.net",1439945170928
+started,bundle,org.eclipse.core.resources,3.7.101.v20120125-1505,"org.eclipse.core.resources",1439945170929
+started,bundle,org.eclipse.core.runtime,3.7.0.v20110110,"org.eclipse.core.runtime",1439945170932
+started,bundle,org.eclipse.core.runtime.compatibility,3.2.100.v20100505,"org.eclipse.core.runtime.compatibility",1439945170942
+started,bundle,org.eclipse.core.runtime.compatibility.auth,3.2.200.v20110110,"org.eclipse.core.runtime.compatibility.auth",1439945170944
+started,bundle,org.eclipse.core.variables,3.2.500.v20110928-1503,"org.eclipse.core.variables",1439945170945
+started,bundle,org.eclipse.debug.core,3.7.1.v20111129-2031,"org.eclipse.debug.core",1439945170946
+started,bundle,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui",1439945170948
+started,bundle,org.eclipse.epp.mpc.ui,1.1.1.I20110907-0947,"org.eclipse.epp.mpc.ui",1439945170952
+started,bundle,org.eclipse.epp.usagedata.gathering,1.3.1.R201106061540,"org.eclipse.epp.usagedata.gathering",1439945170953
+started,bundle,org.eclipse.epp.usagedata.recording,1.3.1.R201106061540,"org.eclipse.epp.usagedata.recording",1439945170955
+started,bundle,org.eclipse.equinox.app,1.3.100.v20110321,"org.eclipse.equinox.app",1439945170955
+started,bundle,org.eclipse.equinox.common,3.6.0.v20110523,"org.eclipse.equinox.common",1439945170956
+started,bundle,org.eclipse.equinox.ds,1.3.1.R37x_v20110701,"org.eclipse.equinox.ds",1439945170957

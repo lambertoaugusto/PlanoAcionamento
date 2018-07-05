@@ -1,0 +1,20 @@
+import java.awt.EventQueue;
+
+import javax.swing.JButton;
+import javax.swing.JPanel;
+
+
+public class LinhasTela extends JPanel{
+	public JButton[] militar;	
+	
+	public LinhasTela(int quant){
+		militar = new JButton[quant];		
+	}
+	
+	public void inicializar(Militar[] nomes){
+		for(int i = 0; i < nomes.length; i++){
+			militar[i] = new JButton(nomes[i].getNomeDeGuerra());
+			this.add(militar[i]);
+		}
+	}	
+}

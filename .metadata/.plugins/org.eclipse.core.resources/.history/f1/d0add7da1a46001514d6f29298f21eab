@@ -1,0 +1,60 @@
+import java.awt.BorderLayout;
+import java.awt.EventQueue;
+import java.awt.Graphics;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+import javax.swing.JMenuBar;
+import javax.swing.JMenu;
+import javax.swing.JMenuItem;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+import javax.swing.JLabel;
+import javax.swing.SwingConstants;
+import javax.swing.JSeparator;
+import java.awt.Color;
+import javax.swing.JButton;
+import java.awt.Canvas;
+
+
+public class teste extends JPanel {
+
+	private JPanel contentPane;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					teste frame = new teste();
+					frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	public void paintComponent(Graphics g){
+		super.paintComponent(g);
+		g.drawLine(0, 0, 10, 10);
+	}
+	/**
+	 * Create the frame.
+	 */
+	public teste() {
+		this.setLayout(null);
+		
+		JSeparator separator = new JSeparator();
+		separator.setForeground(Color.BLACK);
+		separator.setBounds(136, 82, 58, 2);
+		this.add(separator);
+		
+		JButton btnImprimir = new JButton("imprimir");
+		btnImprimir.setBounds(10, 28, 89, 23);
+		this.add(btnImprimir);		
+	}
+}

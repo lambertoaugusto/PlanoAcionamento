@@ -1,0 +1,376 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1438779263014
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1438779263167
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1438779263321
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1438779263745
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1438779264351
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1438779266036
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1438779266371
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.saveAll",1438779287279
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1438779288724
+error,log,,,"Could not retrieve interfaces",1438779288780
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1438779289215
+error,log,,,"Could not retrieve interfaces",1438779289322
+error,log,,,"Could not retrieve interfaces",1438779289326
+error,log,,,"Could not retrieve interfaces",1438779289337
+error,log,,,"Could not retrieve declared methods",1438779289349
+error,log,,,"Could not retrieve declared methods",1438779289351
+error,log,,,"Could not retrieve declared methods",1438779289353
+error,log,,,"Could not retrieve declared methods",1438779289356
+error,log,,,"Could not retrieve interfaces",1438779289360
+error,log,,,"Could not retrieve interfaces",1438779289362
+error,log,,,"Could not retrieve declared methods",1438779289364
+error,log,,,"Could not retrieve declared methods",1438779289366
+error,log,,,"Could not retrieve interfaces",1438779289370
+error,log,,,"Could not retrieve interfaces",1438779289376
+error,log,,,"Could not retrieve interfaces",1438779289378
+error,log,,,"Could not retrieve interfaces",1438779289379
+error,log,,,"Could not retrieve interfaces",1438779289381
+error,log,,,"Could not retrieve interfaces",1438779289382
+error,log,,,"Could not retrieve declared methods",1438779289384
+error,log,,,"Could not retrieve declared methods",1438779289387
+error,log,,,"Could not retrieve interfaces",1438779289390
+error,log,,,"Could not retrieve declared methods",1438779289393
+error,log,,,"Could not retrieve interfaces",1438779289395
+error,log,,,"Could not retrieve interfaces",1438779289397
+error,log,,,"Could not retrieve interfaces",1438779289399
+error,log,,,"Could not retrieve interfaces",1438779289401
+error,log,,,"Could not retrieve declared methods",1438779289408
+error,log,,,"Could not retrieve interfaces",1438779289430
+error,log,,,"Could not retrieve interfaces",1438779289439
+error,log,,,"Could not retrieve declared methods",1438779289477
+error,log,,,"Could not retrieve declared methods",1438779289493
+error,log,,,"Could not retrieve declared methods",1438779289496
+error,log,,,"Could not retrieve interfaces",1438779289516
+error,log,,,"Could not retrieve interfaces",1438779289521
+error,log,,,"Could not retrieve declared methods",1438779289532
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1438779314639
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1438779314975
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1438779315204
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1438779315412
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1438779316545
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1438779316908
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.saveAll",1438779371926
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1438779374062
+error,log,,,"Could not retrieve interfaces",1438779374109
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1438779374481
+error,log,,,"Could not retrieve interfaces",1438779374580
+error,log,,,"Could not retrieve interfaces",1438779374584
+error,log,,,"Could not retrieve interfaces",1438779374589
+error,log,,,"Could not retrieve declared methods",1438779374591
+error,log,,,"Could not retrieve declared methods",1438779374592
+error,log,,,"Could not retrieve declared methods",1438779374594
+error,log,,,"Could not retrieve declared methods",1438779374595
+error,log,,,"Could not retrieve interfaces",1438779374598
+error,log,,,"Could not retrieve interfaces",1438779374599
+error,log,,,"Could not retrieve declared methods",1438779374601
+error,log,,,"Could not retrieve declared methods",1438779374602
+error,log,,,"Could not retrieve interfaces",1438779374604
+error,log,,,"Could not retrieve interfaces",1438779374607
+error,log,,,"Could not retrieve interfaces",1438779374608
+error,log,,,"Could not retrieve interfaces",1438779374610
+error,log,,,"Could not retrieve interfaces",1438779374612
+error,log,,,"Could not retrieve interfaces",1438779374613
+error,log,,,"Could not retrieve declared methods",1438779374615
+error,log,,,"Could not retrieve declared methods",1438779374617
+error,log,,,"Could not retrieve interfaces",1438779374618
+error,log,,,"Could not retrieve declared methods",1438779374621
+error,log,,,"Could not retrieve interfaces",1438779374623
+error,log,,,"Could not retrieve interfaces",1438779374625
+error,log,,,"Could not retrieve interfaces",1438779374626
+error,log,,,"Could not retrieve interfaces",1438779374628
+error,log,,,"Could not retrieve declared methods",1438779374631
+error,log,,,"Could not retrieve interfaces",1438779374638
+error,log,,,"Could not retrieve interfaces",1438779374644
+error,log,,,"Could not retrieve declared methods",1438779374653
+error,log,,,"Could not retrieve declared methods",1438779374660
+error,log,,,"Could not retrieve declared methods",1438779374662
+error,log,,,"Could not retrieve interfaces",1438779374673
+error,log,,,"Could not retrieve interfaces",1438779374679
+error,log,,,"Could not retrieve declared methods",1438779374687
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1438779392481
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1438779393244
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1438779394970
+error,log,,,"Could not retrieve interfaces",1438779395013
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1438779395345
+error,log,,,"Could not retrieve interfaces",1438779395447
+error,log,,,"Could not retrieve interfaces",1438779395451
+error,log,,,"Could not retrieve interfaces",1438779395456
+error,log,,,"Could not retrieve declared methods",1438779395458
+error,log,,,"Could not retrieve declared methods",1438779395460
+error,log,,,"Could not retrieve declared methods",1438779395469
+error,log,,,"Could not retrieve declared methods",1438779395471
+error,log,,,"Could not retrieve interfaces",1438779395473
+error,log,,,"Could not retrieve interfaces",1438779395475
+error,log,,,"Could not retrieve declared methods",1438779395478
+error,log,,,"Could not retrieve declared methods",1438779395480
+error,log,,,"Could not retrieve interfaces",1438779395482
+error,log,,,"Could not retrieve interfaces",1438779395485
+error,log,,,"Could not retrieve interfaces",1438779395487
+error,log,,,"Could not retrieve interfaces",1438779395489
+error,log,,,"Could not retrieve interfaces",1438779395490
+error,log,,,"Could not retrieve interfaces",1438779395492
+error,log,,,"Could not retrieve declared methods",1438779395494
+error,log,,,"Could not retrieve declared methods",1438779395495
+error,log,,,"Could not retrieve interfaces",1438779395496
+error,log,,,"Could not retrieve declared methods",1438779395499
+error,log,,,"Could not retrieve interfaces",1438779395500
+error,log,,,"Could not retrieve interfaces",1438779395502
+error,log,,,"Could not retrieve interfaces",1438779395504
+error,log,,,"Could not retrieve interfaces",1438779395505
+error,log,,,"Could not retrieve declared methods",1438779395507
+error,log,,,"Could not retrieve interfaces",1438779395515
+error,log,,,"Could not retrieve interfaces",1438779395521
+error,log,,,"Could not retrieve declared methods",1438779395530
+error,log,,,"Could not retrieve declared methods",1438779395536
+error,log,,,"Could not retrieve declared methods",1438779395538
+error,log,,,"Could not retrieve interfaces",1438779395548
+error,log,,,"Could not retrieve interfaces",1438779395552
+error,log,,,"Could not retrieve declared methods",1438779395558
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.saveAll",1438779401858
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1438779422835
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1438779423392
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1438779423425
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1438779423459
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1438779423492
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1438779423526
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1438779423559
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1438779423593
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1438779423627
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1438779423660
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1438779423693
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1438779423727
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1438779423761
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1438779423795
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1438779423827
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1438779423862
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1438779423895
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1438779423929
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1438779423962
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1438779424151
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1438779424631
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1438779424771
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1438779424936
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1438779425559
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1438779425893
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1438779430545
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1438779431100
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1438779431133
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1438779431169
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1438779431202
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1438779431235
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1438779431268
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1438779431557
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1438779431867
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1438779432052
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1438779435311
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1438779437052
+error,log,,,"Could not retrieve interfaces",1438779437116
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1438779437472
+error,log,,,"Could not retrieve interfaces",1438779437570
+error,log,,,"Could not retrieve interfaces",1438779437575
+error,log,,,"Could not retrieve interfaces",1438779437580
+error,log,,,"Could not retrieve declared methods",1438779437583
+error,log,,,"Could not retrieve declared methods",1438779437585
+error,log,,,"Could not retrieve declared methods",1438779437587
+error,log,,,"Could not retrieve declared methods",1438779437589
+error,log,,,"Could not retrieve interfaces",1438779437593
+error,log,,,"Could not retrieve interfaces",1438779437594
+error,log,,,"Could not retrieve declared methods",1438779437596
+error,log,,,"Could not retrieve declared methods",1438779437598
+error,log,,,"Could not retrieve interfaces",1438779437601
+error,log,,,"Could not retrieve interfaces",1438779437604
+error,log,,,"Could not retrieve interfaces",1438779437606
+error,log,,,"Could not retrieve interfaces",1438779437608
+error,log,,,"Could not retrieve interfaces",1438779437610
+error,log,,,"Could not retrieve interfaces",1438779437612
+error,log,,,"Could not retrieve declared methods",1438779437613
+error,log,,,"Could not retrieve declared methods",1438779437614
+error,log,,,"Could not retrieve interfaces",1438779437615
+error,log,,,"Could not retrieve declared methods",1438779437617
+error,log,,,"Could not retrieve interfaces",1438779437618
+error,log,,,"Could not retrieve interfaces",1438779437619
+error,log,,,"Could not retrieve interfaces",1438779437620
+error,log,,,"Could not retrieve interfaces",1438779437621
+error,log,,,"Could not retrieve declared methods",1438779437624
+error,log,,,"Could not retrieve interfaces",1438779437628
+error,log,,,"Could not retrieve interfaces",1438779437633
+error,log,,,"Could not retrieve declared methods",1438779437642
+error,log,,,"Could not retrieve declared methods",1438779437647
+error,log,,,"Could not retrieve declared methods",1438779437649
+error,log,,,"Could not retrieve interfaces",1438779437657
+error,log,,,"Could not retrieve interfaces",1438779437660
+error,log,,,"Could not retrieve declared methods",1438779437666
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1438779454662
+error,log,,,"Could not retrieve interfaces",1438779454700
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1438779455023
+error,log,,,"Could not retrieve interfaces",1438779455116
+error,log,,,"Could not retrieve interfaces",1438779455120
+error,log,,,"Could not retrieve interfaces",1438779455126
+error,log,,,"Could not retrieve declared methods",1438779455129
+error,log,,,"Could not retrieve declared methods",1438779455130
+error,log,,,"Could not retrieve declared methods",1438779455132
+error,log,,,"Could not retrieve declared methods",1438779455133
+error,log,,,"Could not retrieve interfaces",1438779455135
+error,log,,,"Could not retrieve interfaces",1438779455137
+error,log,,,"Could not retrieve declared methods",1438779455139
+error,log,,,"Could not retrieve declared methods",1438779455140
+error,log,,,"Could not retrieve interfaces",1438779455143
+error,log,,,"Could not retrieve interfaces",1438779455145
+error,log,,,"Could not retrieve interfaces",1438779455147
+error,log,,,"Could not retrieve interfaces",1438779455148
+error,log,,,"Could not retrieve interfaces",1438779455150
+error,log,,,"Could not retrieve interfaces",1438779455151
+error,log,,,"Could not retrieve declared methods",1438779455172
+error,log,,,"Could not retrieve declared methods",1438779455173
+error,log,,,"Could not retrieve interfaces",1438779455174
+error,log,,,"Could not retrieve declared methods",1438779455177
+error,log,,,"Could not retrieve interfaces",1438779455178
+error,log,,,"Could not retrieve interfaces",1438779455180
+error,log,,,"Could not retrieve interfaces",1438779455182
+error,log,,,"Could not retrieve interfaces",1438779455192
+error,log,,,"Could not retrieve declared methods",1438779455196
+error,log,,,"Could not retrieve interfaces",1438779455201
+error,log,,,"Could not retrieve interfaces",1438779455205
+error,log,,,"Could not retrieve declared methods",1438779455213
+error,log,,,"Could not retrieve declared methods",1438779455218
+error,log,,,"Could not retrieve declared methods",1438779455219
+error,log,,,"Could not retrieve interfaces",1438779455228
+error,log,,,"Could not retrieve interfaces",1438779455231
+error,log,,,"Could not retrieve declared methods",1438779455236
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1438779502858
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1438779503133
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1438779503387
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1438779503613
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1438779503843
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1438779504108
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1438779504384
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1438779504729
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1438779505006
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1438779505305
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1438779505991
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1438779510330
+error,log,,,"Could not retrieve interfaces",1438779510373
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1438779510707
+error,log,,,"Could not retrieve interfaces",1438779510842
+error,log,,,"Could not retrieve interfaces",1438779510845
+error,log,,,"Could not retrieve interfaces",1438779510850
+error,log,,,"Could not retrieve declared methods",1438779510852
+error,log,,,"Could not retrieve declared methods",1438779510853
+error,log,,,"Could not retrieve declared methods",1438779510854
+error,log,,,"Could not retrieve declared methods",1438779510856
+error,log,,,"Could not retrieve interfaces",1438779510859
+error,log,,,"Could not retrieve interfaces",1438779510861
+error,log,,,"Could not retrieve declared methods",1438779510862
+error,log,,,"Could not retrieve declared methods",1438779510864
+error,log,,,"Could not retrieve interfaces",1438779510865
+error,log,,,"Could not retrieve interfaces",1438779510868
+error,log,,,"Could not retrieve interfaces",1438779510869
+error,log,,,"Could not retrieve interfaces",1438779510870
+error,log,,,"Could not retrieve interfaces",1438779510871
+error,log,,,"Could not retrieve interfaces",1438779510873
+error,log,,,"Could not retrieve declared methods",1438779510874
+error,log,,,"Could not retrieve declared methods",1438779510875
+error,log,,,"Could not retrieve interfaces",1438779510876
+error,log,,,"Could not retrieve declared methods",1438779510877
+error,log,,,"Could not retrieve interfaces",1438779510878
+error,log,,,"Could not retrieve interfaces",1438779510880
+error,log,,,"Could not retrieve interfaces",1438779510881
+error,log,,,"Could not retrieve interfaces",1438779510883
+error,log,,,"Could not retrieve declared methods",1438779510885
+error,log,,,"Could not retrieve interfaces",1438779510892
+error,log,,,"Could not retrieve interfaces",1438779510898
+error,log,,,"Could not retrieve declared methods",1438779510907
+error,log,,,"Could not retrieve declared methods",1438779510913
+error,log,,,"Could not retrieve declared methods",1438779510914
+error,log,,,"Could not retrieve interfaces",1438779510922
+error,log,,,"Could not retrieve interfaces",1438779510925
+error,log,,,"Could not retrieve declared methods",1438779510930
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.saveAll",1438779516338
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.saveAll",1438779735803
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1438779737960
+error,log,,,"Could not retrieve interfaces",1438779738006
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1438779738356
+error,log,,,"Could not retrieve interfaces",1438779738487
+error,log,,,"Could not retrieve interfaces",1438779738490
+error,log,,,"Could not retrieve interfaces",1438779738493
+error,log,,,"Could not retrieve declared methods",1438779738495
+error,log,,,"Could not retrieve declared methods",1438779738497
+error,log,,,"Could not retrieve declared methods",1438779738498
+error,log,,,"Could not retrieve declared methods",1438779738500
+error,log,,,"Could not retrieve interfaces",1438779738502
+error,log,,,"Could not retrieve interfaces",1438779738503
+error,log,,,"Could not retrieve declared methods",1438779738505
+error,log,,,"Could not retrieve declared methods",1438779738507
+error,log,,,"Could not retrieve interfaces",1438779738509
+error,log,,,"Could not retrieve interfaces",1438779738511
+error,log,,,"Could not retrieve interfaces",1438779738513
+error,log,,,"Could not retrieve interfaces",1438779738515
+error,log,,,"Could not retrieve interfaces",1438779738517
+error,log,,,"Could not retrieve interfaces",1438779738518
+error,log,,,"Could not retrieve declared methods",1438779738520
+error,log,,,"Could not retrieve declared methods",1438779738521
+error,log,,,"Could not retrieve interfaces",1438779738522
+error,log,,,"Could not retrieve declared methods",1438779738524
+error,log,,,"Could not retrieve interfaces",1438779738526
+error,log,,,"Could not retrieve interfaces",1438779738527
+error,log,,,"Could not retrieve interfaces",1438779738528
+error,log,,,"Could not retrieve interfaces",1438779738530
+error,log,,,"Could not retrieve declared methods",1438779738533
+error,log,,,"Could not retrieve interfaces",1438779738539
+error,log,,,"Could not retrieve interfaces",1438779738546
+error,log,,,"Could not retrieve declared methods",1438779738558
+error,log,,,"Could not retrieve declared methods",1438779738567
+error,log,,,"Could not retrieve declared methods",1438779738569
+error,log,,,"Could not retrieve interfaces",1438779738580
+error,log,,,"Could not retrieve interfaces",1438779738583
+error,log,,,"Could not retrieve declared methods",1438779738589
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1438779918693
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1438779919196
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1438779919574
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1438779920000
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.saveAll",1438779925045
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1438779926646
+error,log,,,"Could not retrieve interfaces",1438779926688
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1438779927014
+error,log,,,"Could not retrieve interfaces",1438779927153
+error,log,,,"Could not retrieve interfaces",1438779927155
+error,log,,,"Could not retrieve interfaces",1438779927159
+error,log,,,"Could not retrieve declared methods",1438779927162
+error,log,,,"Could not retrieve declared methods",1438779927163
+error,log,,,"Could not retrieve declared methods",1438779927164
+error,log,,,"Could not retrieve declared methods",1438779927165
+error,log,,,"Could not retrieve interfaces",1438779927167
+error,log,,,"Could not retrieve interfaces",1438779927168
+error,log,,,"Could not retrieve declared methods",1438779927177
+error,log,,,"Could not retrieve declared methods",1438779927178
+error,log,,,"Could not retrieve interfaces",1438779927180
+error,log,,,"Could not retrieve interfaces",1438779927183
+error,log,,,"Could not retrieve interfaces",1438779927184
+error,log,,,"Could not retrieve interfaces",1438779927186
+error,log,,,"Could not retrieve interfaces",1438779927188
+error,log,,,"Could not retrieve interfaces",1438779927190
+error,log,,,"Could not retrieve declared methods",1438779927191
+error,log,,,"Could not retrieve declared methods",1438779927193
+error,log,,,"Could not retrieve interfaces",1438779927194
+error,log,,,"Could not retrieve declared methods",1438779927197
+error,log,,,"Could not retrieve interfaces",1438779927198
+error,log,,,"Could not retrieve interfaces",1438779927200
+error,log,,,"Could not retrieve interfaces",1438779927201
+error,log,,,"Could not retrieve interfaces",1438779927203
+error,log,,,"Could not retrieve declared methods",1438779927205
+error,log,,,"Could not retrieve interfaces",1438779927210
+error,log,,,"Could not retrieve interfaces",1438779927214
+error,log,,,"Could not retrieve declared methods",1438779927223
+error,log,,,"Could not retrieve declared methods",1438779927228
+error,log,,,"Could not retrieve declared methods",1438779927230
+error,log,,,"Could not retrieve interfaces",1438779927239
+error,log,,,"Could not retrieve interfaces",1438779927242
+error,log,,,"Could not retrieve declared methods",1438779927247
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1438779944907
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1438779950055
+error,log,,,"Could not retrieve interfaces",1438779991289
+error,log,,,"Could not retrieve declared methods",1438779991293
+error,log,,,"Could not retrieve declared methods",1438779991295
+error,log,,,"Could not retrieve declared methods",1438779991297
+error,log,,,"Designer [1.3.0.r37x201202021417.201508050905]: new JTextField()",1438779991591

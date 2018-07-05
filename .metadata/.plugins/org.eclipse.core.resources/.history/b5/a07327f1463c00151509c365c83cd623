@@ -1,0 +1,53 @@
+
+public class No {
+
+	private Militar militar; 
+	private No[] filhos;
+	private No[] pais;
+	public boolean encheu = false;	
+			
+	public No(Militar m){
+		this.militar = m;
+		this.filhos = new No[3];
+		this.pais = new No[3];
+	}
+	
+	public boolean inserirFilho(No f){
+		boolean retornar = false;
+		for(int i = 0; i < 3 && !retornar; i++){
+			if(filhos[i] == null){
+				this.filhos[i] = f;
+				retornar = true;
+				if(i == 2){
+					encheu = true;
+				}
+			}
+		}
+		return retornar;
+	}
+
+	public boolean inserirPai(No p){
+		boolean retornar = false;
+		for(int i = 0; i < 3 && !retornar; i++){
+			if(pais[i] == null){
+				this.pais[i] = p;
+				retornar = true;
+			}
+		}
+		return retornar;
+	}
+	
+	public Militar getMilitar() {
+		return militar;
+	}
+
+	public No[] getFilhos() {
+		return filhos;
+	}
+
+	public No[] getPais() {
+		return pais;
+	}
+	
+	
+}

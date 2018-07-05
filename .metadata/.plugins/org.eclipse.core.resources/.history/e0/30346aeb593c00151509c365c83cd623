@@ -1,0 +1,164 @@
+import java.awt.BorderLayout;
+import java.awt.Dimension;
+import java.awt.EventQueue;
+import java.awt.GridLayout;
+import java.awt.Toolkit;
+import java.util.Random;
+import java.util.Vector;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+import javax.swing.JScrollPane;
+import javax.swing.JButton;
+import javax.swing.JMenuBar;
+import javax.swing.JMenu;
+import javax.swing.JMenuItem;
+
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+import java.awt.FlowLayout;
+import javax.swing.BoxLayout;
+import java.awt.CardLayout;
+import javax.swing.GroupLayout;
+import javax.swing.GroupLayout.Alignment;
+
+
+public class TelaPrincipal extends JFrame {
+
+	
+	private JPanel contentPane;	
+	public JScrollPane scrollPane = new JScrollPane();
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {		
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					TelaPrincipal frame = new TelaPrincipal();
+					frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the frame.
+	 */
+	public TelaPrincipal() {
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		//pegando resolução da tela
+		Toolkit tk = Toolkit.getDefaultToolkit();
+		Dimension d = tk.getScreenSize();
+				
+		setBounds(2*d.width/6, 2*d.height/6, d.width/3, d.height/3);
+		contentPane = new JPanel();
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		setContentPane(contentPane);		
+		
+		//parte que gera o plano		
+				
+		Militar[] militares = {new Militar("Cap. Pedro","(81)91111-1111"),new Militar("Ten. Ednei","(81)91111-1111"),
+							   new Militar("Ten. Edson","(81)91111-1111"),new Militar("Ten. Klesons","(81)91111-1111"),
+							   new Militar("2S Lamberto","(81)91111-1111"),new Militar("2S Paula","(81)91111-1111"),
+							   new Militar("3S Wanessa","(81)91111-1111"),new Militar("1S Williams","(81)91111-1111"),
+							   new Militar("3S Graziele","(81)91111-1111"),new Militar("3S Rafael","(81)91111-1111"),
+							   new Militar("3S Ranyer","(81)91111-1111"),new Militar("3S Ammanda Mayara","(81)91111-1111"),
+							   new Militar("3S Cleiton","(81)91111-1111")};
+		
+		Militar[] mil_random = new Militar[13];
+		mil_random[0] = militares[0];
+		mil_random[1] = militares[1];
+		mil_random[2] = militares[2];
+		mil_random[3] = militares[3];
+		
+		Vector pos = new Vector();
+		for(int i = 4; i < 13; i++){
+			pos.addElement(militares[i]);
+		}
+				
+		Random r = new Random();
+		int i = 4;
+		while(pos.size()>0){			
+			int j = r.nextInt(pos.size());
+			mil_random[i] = ((Militar)pos.elementAt(j));
+			pos.remove(j);
+			i++;
+		}
+		
+		
+		PlanoDeAcionamento plano = new PlanoDeAcionamento(mil_random);
+		plano.gerarPlano();	
+		
+		//Telas		 
+		contentPane.setLayout(new BorderLayout(0, 0));
+		
+		JMenuBar menuBar = new JMenuBar();
+		
+		JMenu mnPrincipal = new JMenu("Principal");
+		menuBar.add(mnPrincipal);
+		
+		JMenuItem mntmLogin = new JMenuItem("Entrar");
+		mntmLogin.addActionListener(new TelaLogin(this));
+		mnPrincipal.add(mntmLogin);
+		
+		mnPrincipal.add(mntmLogin);
+		
+		JMenuItem mntmSair = new JMenuItem("Sair");	
+		mnPrincipal.add(mntmSair);		
+		contentPane.setLayout(new BorderLayout(0, 0));
+		contentPane.add(menuBar, BorderLayout.NORTH);
+		
+		JMenu mnNewMenu_1 = new JMenu("Usu\u00E1rio");
+		mnNewMenu_1.setEnabled(false);
+		menuBar.add(mnNewMenu_1);
+		
+		JMenuItem mntmCadastar = new JMenuItem("Cadastrar");
+		mntmCadastar.addActionListener(new CadastrarUsuario(this));
+		mnNewMenu_1.add(mntmCadastar);
+		
+		JMenuItem mntmModificar = new JMenuItem("Modificar");
+		mnNewMenu_1.add(mntmModificar);
+		
+		JMenuItem mntmExcluir = new JMenuItem("Excluir");
+		mnNewMenu_1.add(mntmExcluir);
+		
+		JMenu mnNewMenu_2 = new JMenu("Militar");
+		mnNewMenu_2.setEnabled(false);
+		menuBar.add(mnNewMenu_2);
+		
+		JMenuItem mntmCadastrar = new JMenuItem("Cadastrar");
+		mntmCadastrar.addActionListener(new CadastrarMilitar(this));
+		mnNewMenu_2.add(mntmCadastrar);
+		
+		JMenuItem mntmModificar_1 = new JMenuItem("Modificar");
+		mnNewMenu_2.add(mntmModificar_1);
+		
+		JMenuItem mntmExcluir_1 = new JMenuItem("Excluir");
+		mnNewMenu_2.add(mntmExcluir_1);
+		
+		JMenu mnPlano = new JMenu("Plano");
+		mnPlano.setEnabled(false);
+		menuBar.add(mnPlano);
+		
+		JMenuItem mntmGerar = new JMenuItem("Gerar");
+		mnPlano.add(mntmGerar);
+		
+		JMenuItem mntmVerificarGeral = new JMenuItem("Verificar Geral");
+		mnPlano.add(mntmVerificarGeral);
+		
+		JMenuItem mntmVerificarIndividual = new JMenuItem("Verificar Individual");
+		mnPlano.add(mntmVerificarIndividual);
+				
+		scrollPane.setViewportView(new TelaLogin(this));
+		contentPane.add(scrollPane);
+		//contentPane.add(new JPanel(), BorderLayout.WEST);
+		//contentPane.add(new JPanel(), BorderLayout.EAST);
+		//contentPane.add(new CadastrarMilitar(plano), BorderLayout.CENTER);
+	}
+}
